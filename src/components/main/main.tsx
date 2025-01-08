@@ -42,7 +42,7 @@ const main = () => {
                 }
 
             </article>
-            <Link className={styles.visit} href="/">
+            <Link className={styles.visit} href="/products">
                 View More
             </Link>
         </section>
@@ -55,14 +55,14 @@ const main = () => {
                     })
                 }
             </article>
-            <Link className={styles.visit} href="/">
+            <Link className={styles.visit} href="/products">
                 View More
             </Link>
         </section>
         <section className={styles.rateus}>
             <h1>Rate Us</h1>
             <article>
-                <h3> <Link href="/rateus">Give Us your Feedback</Link></h3>
+                <h3> <Link href="/contact">Give Us your Feedback</Link></h3>
             </article>
         </section>
     </main>

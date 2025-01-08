@@ -6,7 +6,7 @@ const footer = () => {
   return (
     <footer className={styles.footer}>
         <article className={styles.logo}>
-            <h1>LOGO</h1>
+            <h1>ComicSouq</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias architecto autem totam consequuntur recusandae culpa explicabo iusto perferendis tenetur minima.</p>
         </article>
         <article className={styles.link}>

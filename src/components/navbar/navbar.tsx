@@ -58,7 +58,7 @@ const navbar = () => {
   return (
     <nav className={styles.navbar}>
       <Cart />
-        <h1 className={styles.logo}>Logo</h1>
+        <h1 className={styles.logo}>ComicSouq</h1>
         <ul>
             <li><Link href="/">Home</Link></li>
             <li><Link href="/products">Products</Link></li>

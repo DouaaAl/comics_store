@@ -24,7 +24,7 @@ const page = () => {
   });
   const [productReviews, setProductReviews] = useState(0);
   const [inFavorite, setInFavorite] = useState(false);
-  const [selectRating, setSelectRating] = useState("");
+  const [selectRating, setSelectRating] = useState("1");
   const [selectComment, setSelectComment] = useState("");
   const [comments, setComments] = useState([]);
   const [hasCommented, setHasCommented] = useState(false);
